@@ -1,0 +1,154 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+.title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.social {
+  align-self: right;
+  float: right;
+}
+.portfolio-link {
+  text-align: center;
+  margin: 20 auto;
+}
+.form-style-6 {
+  font: 95%;
+  max-width: 400px;
+  margin: 10px auto;
+  background: #F7F7F7;
+}
+.form-style-6 h1 {
+  background: #e6e6e6;
+  padding: 20px 0;
+  font-size: 140%;
+  font-weight: 300;
+  text-align: center;
+  color: #494C4E;
+  margin: -16px -16px 16px -16px;
+}
+.form-style-6 input[type="text"], .form-style-6 input[type="date"], .form-style-6 input[type="datetime"], .form-style-6 input[type="email"], .form-style-6 input[type="number"], .form-style-6 input[type="search"], .form-style-6 input[type="time"], .form-style-6 input[type="url"], .form-style-6 textarea, .form-style-6 select {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 3%;
+  color: #555;
+  font: 95%;
+}
+.form-style-6 input[type="text"]:focus, .form-style-6 input[type="date"]:focus, .form-style-6 input[type="datetime"]:focus, .form-style-6 input[type="email"]:focus, .form-style-6 input[type="number"]:focus, .form-style-6 input[type="search"]:focus, .form-style-6 input[type="time"]:focus, .form-style-6 input[type="url"]:focus, .form-style-6 textarea:focus, .form-style-6 select:focus {
+  box-shadow: 0 0 5px #43D1AF;
+  padding: 3%;
+  border: 1px solid #43D1AF;
+}
+.form-style-6 input[type="submit"], .form-style-6 input[type="button"] {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  padding: 3%;
+  background: #e6e6e6;
+  border-bottom: 2px solid #e6e6e6;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  color: #DC143C;
+}
+.form-style-6 input[type="submit"]:hover, .form-style-6 input[type="button"]:hover {
+  color: #fff;
+  background: #DC143C;
+}
+
+body {
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+a {
+  font-size: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
